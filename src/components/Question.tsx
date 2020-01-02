@@ -18,7 +18,7 @@ export default ({ item, onChange }: QuestionProps) => {
         borderRadius: "6px",
         // border: "1px solid #eee",
         boxShadow:
-          "0 2px 4px -2px rgba(0,0,0,0.2), 0 5px 20px -5px rgba(0,0,0,0.01)",
+          "0 1px 4px -3px rgba(0,0,0,0.5), 0 10px 30px -5px rgba(0,0,0,0.075)",
         background: "white",
         display: "flex",
         flexDirection: "column"
@@ -35,7 +35,8 @@ export default ({ item, onChange }: QuestionProps) => {
             justifyContent: "center",
             alignItems: "center",
             marginRight: t.spaces[4],
-            flexShrink: 0
+            flexShrink: 0,
+            boxShadow: `0 7.5px 20px 0px ${t.colors.primary}50`
           })}
         >
           <span
@@ -49,7 +50,7 @@ export default ({ item, onChange }: QuestionProps) => {
             {item.order}
           </span>
         </div>
-        <div>
+        <div css={{ width: "100%" }}>
           {item.question}
           <div css={(t: ThemeObject) => ({ marginTop: t.spaces[2] })}>
             <Select onChange={(v: any) => onChange(v)} order={item.order} />

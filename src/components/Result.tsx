@@ -12,7 +12,7 @@ export default ({ text }: any) => (
         borderRadius: "6px",
         // border: "1px solid #eee",
         boxShadow:
-          "0 2px 4px -2px rgba(0,0,0,0.2), 0 5px 20px -5px rgba(0,0,0,0.01)",
+          "0 1px 4px -3px rgba(0,0,0,0.5), 0 10px 30px -5px rgba(0,0,0,0.075)",
         background: "white",
         display: "flex",
         flexDirection: "column"

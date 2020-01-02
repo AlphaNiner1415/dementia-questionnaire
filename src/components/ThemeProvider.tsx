@@ -37,6 +37,9 @@ export default ({ children }: ThemeProviderProps) => (
         "*": {
           WebkitFontSmoothing: "antialiased"
         },
+        html: {
+          fontSize: "16px"
+        },
         body: {
           fontFamily: "Sarabun",
           background: "#f8f8f8"

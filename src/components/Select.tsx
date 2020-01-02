@@ -3,10 +3,10 @@ import { jsx } from "@emotion/core";
 import Select, { ValueType } from "react-select";
 
 const options = [
-  { value: "D", label: "รายวัน" },
-  { value: "W", label: "รายสัปดาห์" },
-  { value: "M", label: "รายเดือน" },
-  { value: "Y", label: "รายปี" }
+  { value: "D", label: "เกิดทุกวัน" },
+  { value: "W", label: "เกิดบ่อยทุกสัปดาห์" },
+  { value: "M", label: "เกิด 2-3 ครั้งต่อเดือน" },
+  { value: "Y", label: "เกิดนาน ๆ ครั้งใน 1 ปี / ไม่เคยเกิดขึ้นเลย" }
 ];
 
 interface SelectProps {
@@ -25,7 +25,7 @@ export default ({ order, onChange }: SelectProps) => {
     <Select
       onChange={v => handleSelectChange(v)}
       isSearchable={false}
-      css={{ width: "150px" }}
+      css={{ width: "100%", maxWidth: "300px" }}
       options={options}
     />
   );
