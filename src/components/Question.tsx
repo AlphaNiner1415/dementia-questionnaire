@@ -35,8 +35,7 @@ export default ({ item, onChange }: QuestionProps) => {
             justifyContent: "center",
             alignItems: "center",
             marginRight: t.spaces[4],
-            flexShrink: 0,
-            boxShadow: `0 7.5px 20px 0px ${t.colors.primary}50`
+            flexShrink: 0
           })}
         >
           <span
