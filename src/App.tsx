@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Question from "./components/Question";
 import Result from "./components/Result";
+
 import ThemeProvider, { ThemeObject } from "./components/ThemeProvider";
 
 const __QUESTIONS = [

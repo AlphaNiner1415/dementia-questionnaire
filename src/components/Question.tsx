@@ -2,6 +2,7 @@
 import { jsx } from "@emotion/core";
 import Select from "./Select";
 import { ThemeObject } from "./ThemeProvider";
+import { useTranslation } from "react-i18next";
 
 interface QuestionProps {
   item: any;

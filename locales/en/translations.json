@@ -1,0 +1,20 @@
+{
+  "question1": "Cannot find things around the home",
+  "question2": "Cannot remember frequently visited places",
+  "question3": "Need to go back and review what you did even if you did it twice",
+  "question4": "Forget things you intend to take with you outside the house",
+  "question5": "Forget things you heard yesterday or 2-3 days ago",
+  "question6": "Forget your friends, close relatives, or people you see often",
+  "question7": "Cannot understand the content of articles you've read in a newspaper, magazine, or webpage",
+  "question8": "Forget to pass on a message somebody else asked you to",
+  "question9": "Forget your personal information, such as your birthday or your address",
+  "question10": "Get confused about the details of a conversation that you've listened to",
+  "question11": "Forget where you usually put something or look for that thing in a place it shouldn't be",
+  "question12": "While going to a frequently visited place, you often find yourself disoriented or lost",
+  "question13": "Do parts of or all of your daily routine twice, due to a mistake such as putting too much sugar when cooking or combing your hair again after you just did",
+  "question14": "Tell the same story again, right after you just finished telling it the first time",
+  "resultScore19": "Excellent",
+  "resultScore29": "Average, you should seek advice to improve your memory.",
+  "resultScore39": "Low, you have a lot of things to do which makes your life very busy, you should seek help to better your memory.",
+  "resultScore56": "Poor, you should seek medical help from a healthcare professional."
+}
