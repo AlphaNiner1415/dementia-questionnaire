@@ -1,4 +1,3 @@
-import { jsx } from '@emotion/core';
 import React from 'react';
 const secondPage = () => {
     return (
